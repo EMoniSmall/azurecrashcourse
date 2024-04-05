@@ -1,4 +1,4 @@
-# The Limitless Blue: Azure Crash Course
+# The Limitless Blue: Azure Beginner's Tutorial 📖
 A Beginner's Tutorial to Microsoft Azure
 
 <h2>Expectations 🤔</h2>
@@ -10,14 +10,16 @@ A Beginner's Tutorial to Microsoft Azure
   - Storage Accounts
   - Virtual Machines
 
+-Use the 3 services to create one of each.
+
 <h2>What is Azure? ☁</h2>
 Azure is a cloud computing service provided by Microsoft. It is a prominent cloud provider along with Amazon Web Services, Google Cloud Provider, Oracle Cloud Infrastructure, and IBM Cloud. Uses for Azure can include website hosting, storage and backup, media streaming, mobile app development, game development/hosting, and more.
 
 <h2>Account Set-Up 🏗</h2>
 <h3>Things You Will Need:</h3>
-- Computer w/ Internet Connection
+-Computer w/ Internet Connection
 
-- Credit Card (Required for Free Azure Credits)
+-Credit Card (Required for Free Azure Credits)
 
   - *Note: When your free subscription credits are out, Azure will not charge your card until you permit it to do so.*
 
@@ -87,3 +89,10 @@ Step 3: Pick the Resource Group (You can use the Resource Group you created in t
 
 Step 4: Review, Create and wait for it to Deploy.
 
+Once the Storage Account is created, you can return to Storage Accounts and click into your newly made account. You can upload any files you may want to store. 
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/2e2307d1-6aaf-47b5-aee0-87eac237a293)
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/4f933220-791a-4483-bf8e-2ab349ce1929)
+
+<h2>Virtual Machines </h2>
