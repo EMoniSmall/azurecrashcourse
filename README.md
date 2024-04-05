@@ -45,7 +45,7 @@ A resource group in Azure is a container for organizing and managing related Azu
 
 <h3>Creating Your First Resource Group</h3>
 
-Step 1: Click into "Resource Groups" under Azure services (or you can search it in the search bar above). You will come to the following screen.
+Step 1: Click on "Resource Groups" under Azure services (or you can search it in the search bar above). You will come to the following screen.
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/812b59f4-214a-4fb5-867d-3de99e5cc966)
 
@@ -60,7 +60,7 @@ Step 3: Name the Resource Group and choose the region. And click "Review + creat
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/d528129b-66fa-4cec-aee7-7b057a8721cf)
 
 
-*If you hit Next: Tags, you can observe and place a tag of your own, however, we will not be specifying any Tags for this. Tags are used for additional organization inside the resource group such as naming the creators of a certain files within the group.*
+*If you hit Next: Tags, you can observe and place a tag of your own, however, we will not be specifying any Tags for this. Tags are used for additional organization inside the resource group such as naming the creators of certain files within the group.*
 
 Step 4: After you're done reviewing, hit "Create" again at the bottom of the screen to create the Resource Group. You should now see your newly created Resource Group on the list. 
 
@@ -87,9 +87,9 @@ Step 3: Pick the Resource Group (You can use the Resource Group you created in t
 
 *You can look around additional options by hitting "Next" but these options can also be left at default.*
 
-Step 4: Review, Create and wait for it to Deploy.
+Step 4: Review, Create, and wait for it to Deploy.
 
-Once the Storage Account is created, you can return to Storage Accounts and click into your newly made account. You can upload any files you may want to store. You may store text documents and other files.
+Once the Storage Account is created, you can return to Storage Accounts and click on your newly made account. You can upload any files you may want to store. You may store text documents and other files.
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/2e2307d1-6aaf-47b5-aee0-87eac237a293)
 
@@ -104,7 +104,7 @@ A virtual machine is a software-based emulation of a physical computer that oper
 
 <h3>Creating Your First Virtual Machine</h3>
 
-Step 1: From the Azure Home Screen, click on Virtual Machines under Azure Services and click create. You'll notice a Drop Down box. Click on the top option, "Azure Virtual Machine"
+Step 1: From the Azure Home Screen, click on Virtual Machines under Azure Services and click Create. You'll notice a drop-down box. Click on the top option, "Azure Virtual Machine"
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/597802cb-9809-446b-ac64-39a434160f85)
 
@@ -124,7 +124,7 @@ Step 5: Create an Admin account and password for your VM. Don't forget your Admi
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/963a8346-ec54-4ccf-a821-17d9038fd3d4)
 
-Step 6: Licensing and Creation. Make sure the Licensing box is checked and hit Review + create. Review your options if you need to and hit Create at the bottom and wait for the VM to deploy. 
+Step 6: Licensing and Creation. Make sure the Licensing box is checked and hit Review + Create. Review your options if you need to hit Create at the bottom and wait for the VM to deploy. 
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/f98fec13-c430-4481-b217-da5fe433ef6a)
 
@@ -153,23 +153,23 @@ This is because the "Size" you picked earlier may be outdated. However, for prac
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/9a6c7726-6680-43e2-acd0-e6a4b3487ea1)
 
-From here you, can explore this newly born VM. You can download things to it, store files or whatever else you please with it. 
+From here you can explore this newly born VM. You can download things to it, store files or whatever else you please with it. 
 
 <h2>Clean-Up 🧹</h2>
 
-To prevent going through the free Azure credits too fast, it's recommended to delete the resource groups you made during this tutorial. This will in turn delete everything else inside including any storage accounts and VMs you made have created. 
+To prevent going through the free Azure credits too fast, it's recommended to delete the resource groups you made during this tutorial. This will in turn delete everything else inside including any storage accounts and VMs you have created. 
 
 Step 1: Return to Resource Groups. You may notice there's another resource group you haven't created. "NetworkWatcherRG"
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/6f6484ae-7d98-4a24-adfa-da4051efba60)
 
-This RG gets created when you create a VM. Click onto NetworkWatcherRG and hit Delete Resource Group.
+This RG gets created when you create a VM. Click on NetworkWatcherRG and hit Delete Resource Group.
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/f82eb33f-1f88-4b66-bc20-fa0398736438)
 
 Follow the prompts and confirm the deletion. 
 
-Step 2: Retun to resource groups again and now click into the Resource Group you created. Repeat the previous step and confirm the deletion of your resource group. 
+Step 2: Return to resource groups again and now click on the Resource Group you created. Repeat the previous step and confirm the deletion of your resource group. 
 
 *Note: Before deletion, you can observe all the files in the RG that were created by the VM*
 
