@@ -4,7 +4,7 @@ A Beginner's Tutorial to Microsoft Azure
 <h2>Expectations 🤔</h2>
 -Set Up Your Free Azure Subscription
 
--Gain an understanding of 3 core services provided by Azure:
+-Gain a basic understanding of 3 core services provided by Azure:
 
   - Resource Groups
   - Storage Accounts
@@ -89,10 +89,88 @@ Step 3: Pick the Resource Group (You can use the Resource Group you created in t
 
 Step 4: Review, Create and wait for it to Deploy.
 
-Once the Storage Account is created, you can return to Storage Accounts and click into your newly made account. You can upload any files you may want to store. 
+Once the Storage Account is created, you can return to Storage Accounts and click into your newly made account. You can upload any files you may want to store. You may store text documents and other files.
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/2e2307d1-6aaf-47b5-aee0-87eac237a293)
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/4f933220-791a-4483-bf8e-2ab349ce1929)
 
-<h2>Virtual Machines </h2>
+<h2>Virtual Machines 🖥 </h2>
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/2901714a-92f9-40b4-a1f1-48f6615d2ca8)
+
+<h4>What is a Virtual Machine?</h4>
+A virtual machine is a software-based emulation of a physical computer that operates within another computer environment. It allows users to run multiple operating systems or applications on a single physical machine known as the host machine.
+
+<h3>Creating Your First Virtual Machine</h3>
+
+Step 1: From the Azure Home Screen, click on Virtual Machines under Azure Services and click create. You'll notice a Drop Down box. Click on the top option, "Azure Virtual Machine"
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/597802cb-9809-446b-ac64-39a434160f85)
+
+Step 2: Pick a Resource Group (Again, you may use the same resource group you created in the previous steps) and name your machine. 
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/0b73d6d0-c207-4406-89f1-3ee495155dab)
+
+Step 3: Scroll down to "Image" and pick your OS. For this tutorial, we will be using Windows 10 Pro, version 22h2 - x64 Gen 2. 
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/08e17aab-33d3-438d-b636-c4721dc6b0c4)
+
+Step 4: Pick the "Size." This will be the vcpus and GiB memory your VM will be using. Picking a size of at least 2 vcpus is recommended. 
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/43d7abff-1866-47e9-9445-2aa88a62b538)
+
+Step 5: Create an Admin account and password for your VM. Don't forget your Admin and Password!
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/963a8346-ec54-4ccf-a821-17d9038fd3d4)
+
+Step 6: Licensing and Creation. Make sure the Licensing box is checked and hit Review + create. Review your options if you need to and hit Create at the bottom and wait for the VM to deploy. 
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/f98fec13-c430-4481-b217-da5fe433ef6a)
+
+<h2>Connecting To Your New Virtual Machine 📲</h2>
+Once your VM has deployed, you can now find it by returning to the Azure Home screen and clicking Virtual Machines. 
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/81662b10-523f-43ea-bd06-e5a1ae58fb1f)
+
+Step 1: To connect to the VM, first open your start menu and search for "Remote Desktop Connection" and click. 
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/9e226fae-e70b-41c3-b7d7-601fd1f2acd3)
+
+Step 2: A Public IP is needed so return to your Azure window and click into your VM. You'll see all the "Essentials" of your VM where you can also find the Public IP address. Copy the Address into your Remote Desktop Connection and Connect.
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/66fec2a1-d479-48c7-b260-33364d91db24)
+
+Step 3: Login using the Admin account and Password you created while creating the VM. 
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/6264c005-62df-4213-8485-6f0599ec1ac3)
+
+Step 4: You may see the following screen: 
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/51932f5d-a45e-4e87-b8df-60f3d96038fb)
+
+This is because the "Size" you picked earlier may be outdated. However, for practice, this is not an issue. Hit Yes and observe the connection to your new VM. 
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/9a6c7726-6680-43e2-acd0-e6a4b3487ea1)
+
+From here you, can explore this newly born VM. You can download things to it, store files or whatever else you please with it. 
+
+<h2>Clean-Up 🧹</h2>
+
+To prevent going through the free Azure credits too fast, it's recommended to delete the resource groups you made during this tutorial. This will in turn delete everything else inside including any storage accounts and VMs you made have created. 
+
+Step 1: Return to Resource Groups. You may notice there's another resource group you haven't created. "NetworkWatcherRG"
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/6f6484ae-7d98-4a24-adfa-da4051efba60)
+
+This RG gets created when you create a VM. Click onto NetworkWatcherRG and hit Delete Resource Group.
+
+![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/f82eb33f-1f88-4b66-bc20-fa0398736438)
+
+Follow the prompts and confirm the deletion. 
+
+Step 2: Retun to resource groups again and now click into the Resource Group you created. Repeat the previous step and confirm the deletion of your resource group. 
+
+*Note: Before deletion, you can observe all the files in the RG that were created by the VM*
+
+Once both resource groups are deleted, you are now finished with the tutorial! 
