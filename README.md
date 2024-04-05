@@ -1,4 +1,4 @@
-# Into The Blue: Azure Crash Course
+# The Limitless Blue: Azure Crash Course
 A Beginner's Tutorial to Microsoft Azure
 
 <h2>Expectations</h2>
@@ -25,15 +25,19 @@ Step 1: Go to www.Portal.Azure.com
 Step 2: Follow the Prompts and create your account with a credit card and email. 
   - You will have 30 days to use up your $200 of Azure Credits
 
-Once you are logged in, you will see the azure services available for use.
+Once you are logged in, you will see the Azure services available for use.
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/9bc3fbfd-4b28-4320-89e1-06b8fcc8a36a)
+
+*Once you're in your new Azure Account, you can take the prompted tour, otherwise, continue.*
 
 <h2>Resource Groups</h2>
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/8b9c86ba-af20-4c10-aebe-d69f226ebaca)
 
-
-*Once you're in your new Azure Account feel free, to take the prompted tour otherwise, continue.*
 <h3>What is a Resource Group?</h3> 
-Resource Groups play a crucial role in organizing and managing
+A resource group in Azure is a container for organizing and managing related Azure resources, It serves as a boundary for management, access control, billing, and lifecycle management of resources within a solution, application, or project. 
+
+
+
+
