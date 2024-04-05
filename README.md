@@ -2,9 +2,9 @@
 A Beginner's Tutorial to Microsoft Azure
 
 <h2>Expectations</h2>
-- Set up your Free Azure Subscription
-  
-- Gain an understanding of 3 core services provided by Azure:
+-Set Up Your Free Azure Subscription
+
+-Gain an understanding of 3 core services provided by Azure:
 
   - Resource Groups
   - Storage Containers
