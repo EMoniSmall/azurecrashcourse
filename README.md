@@ -6,9 +6,9 @@ A Beginner's Tutorial to Microsoft Azure
 
 -Gain a basic understanding of 3 core services provided by Azure:
 
-  - Resource Groups
-  - Storage Accounts
-  - Virtual Machines
+  - [Resource Groups](https://github.com/EMoniSmall/azurecrashcourse?tab=readme-ov-file#resource-groups-)
+  - [Storage Accounts](https://github.com/EMoniSmall/azurecrashcourse/edit/main/README.md#storage-accounts-)
+  - [Virtual Machines](https://github.com/EMoniSmall/azurecrashcourse/edit/main/README.md#virtual-machines--)
 
 -Use the 3 services to create one of each.
 
@@ -57,6 +57,7 @@ Step 2: Click Create in the upper left-hand corner.
 Step 3: Name the Resource Group and choose the region. And click "Review + create" at the bottom.
 
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/618bedbe-b74f-4f06-8d70-d85052d8dbfc)
+
 ![image](https://github.com/EMoniSmall/azurecrashcourse/assets/166156618/d528129b-66fa-4cec-aee7-7b057a8721cf)
 
 
