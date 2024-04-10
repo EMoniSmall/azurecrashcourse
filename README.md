@@ -21,7 +21,8 @@ Azure is a cloud computing service provided by Microsoft. It is a prominent clou
 
 -Credit Card (Required for Free Azure Credits)
 
-  - *Note: When your free subscription credits are out, Azure will not charge your card until you permit it to do so.*
+> [!Note]
+> When your free subscription credits are out, Azure will not charge your card until you permit it to do so.*
 
 Step 1: Go to www.Portal.Azure.com
 
@@ -172,6 +173,7 @@ Follow the prompts and confirm the deletion.
 
 Step 2: Return to resource groups again and now click on the Resource Group you created. Repeat the previous step and confirm the deletion of your resource group. 
 
-*Note: Before deletion, you can observe all the files in the RG that were created by the VM*
+> [!Note]
+> Before deletion, you can observe all the files in the RG that were created by the VM*
 
 Once both resource groups are deleted, you are now finished with the tutorial! 
