@@ -1,4 +1,4 @@
-# The Limitless Blue: Microsoft Azure Crash Course 📖💥
+# Microsoft Azure Crash Course 📖💥
 A Beginner's Tutorial to Microsoft Azure
 
 <h2>Expectations 🤔</h2>
